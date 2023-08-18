@@ -1,7 +1,15 @@
 import { IRoutesDetails } from "../interfaces/routeInterface";
-import HomePage from "../pages/home/HomePage";
-import LoginPage from "../pages/login/LoginPage";
+import ForgotPasswordPage from "../pages/forgot-password";
+import LandingPage from "../pages/landing";
+import LoginPage from "../pages/login";
+import ResetPasswordPage from "../pages/reset-password";
 import IndexRoute from "../routes/indexRoute";
+
+export const ROUTE_CONSTANTS = {
+  LOGIN: "/login",
+  FORGOT_PASSWORD: "/forgot-password",
+  RESET_PASSWORD: "/reset-password",
+};
 
 export const RouteDetails: IRoutesDetails[] = [
   {
@@ -15,13 +23,23 @@ export const RouteDetails: IRoutesDetails[] = [
     isProtected: true,
   },
   {
-    path: "/login",
+    path: ROUTE_CONSTANTS.LOGIN,
     component: LoginPage,
     isProtected: false,
   },
   {
+    path: ROUTE_CONSTANTS.FORGOT_PASSWORD,
+    component: ForgotPasswordPage,
+    isProtected: false,
+  },
+  {
+    path: ROUTE_CONSTANTS.RESET_PASSWORD,
+    component: ResetPasswordPage,
+    isProtected: false,
+  },
+  {
     path: "/",
-    component: HomePage,
-    isProtected: true,
+    component: LandingPage,
+    isProtected: false,
   },
 ];

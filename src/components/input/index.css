@@ -1,0 +1,25 @@
+.input {
+    border: none;
+    border-radius: 8px;
+    background: #f6f7fb !important;
+}
+
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+.ant-input:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ant-input:focus-visible {
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    border-color: none ;
+}

@@ -1,0 +1,14 @@
+.button {
+  color: var(--white-color);
+  background-color: var(--primary);
+  box-shadow: none;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 8px !important;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+}
