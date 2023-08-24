@@ -1,0 +1,33 @@
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.icon-container {
+  background-color: #f2f4f7;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.service-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 8px;
+}
+
+.service-content {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+
+  color: #adb6c2;
+}

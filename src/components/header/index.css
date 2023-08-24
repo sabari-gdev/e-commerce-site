@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-action-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

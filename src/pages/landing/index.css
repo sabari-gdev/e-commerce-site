@@ -1,0 +1,74 @@
+.banner-text {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-image {
+  position: absolute;
+  z-index: 2;
+}
+
+.carousel-banner {
+  position: relative;
+  z-index: 0;
+}
+.brands-section,
+.services-section,
+.currated-picks-section,
+.featured-products-section {
+  padding: 32px 0px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+}
+
+.currated-picks-tiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.featured-products-tiles {
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.limited-offer-banner {
+  display: flex;
+  height: 400px;
+  padding: 32px 0px;
+  border-radius: 8px;
+}
+.limited-banner-image {
+  flex: 0.6;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.limited-offer-text {
+  flex: 0.4;
+  background-color: var(--primary);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+}
+.limited-offer-title {
+  font-size: 20px;
+}
+.limited-offer-content {
+  font-size: 28px;
+}

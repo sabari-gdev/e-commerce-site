@@ -11,15 +11,12 @@
 
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif !important;
   overflow-y: hidden;
 }
 
-code {
-  font-family: "Roboto", sans-serif !important;
-}
-
-.ant-input {
+.ant-input,
+.ant-input:placeholder-shown {
   background-color: var(--bg-grey);
   font-family: "Rubik", sans-serif;
 }

@@ -1,0 +1,35 @@
+.currated-tile-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: var(--bg-grey);
+}
+.tile-image {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tile-button {
+  position: absolute;
+  bottom: 24px;
+  left: 0px;
+  right: 0px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: #fefefe;
+  padding: 8px 16px;
+  margin: 0 24px;
+  border-radius: 8px;
+}
+.tile-button-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+}
